@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Stickman Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ui">
+    <h2>關卡：<span id="level">1</span> / 5</h2>
+    <h2>HP：<span id="hp">100</span></h2>
+</div>
+
+<canvas id="game"></canvas>
+
+<div id="gameOver" class="hide">
+    <h1>Game Over</h1>
+    <button onclick="location.reload()">重新開始</button>
+</div>
+
+<div id="win" class="hide">
+    <h1>🎉 任務完成</h1>
+    <button onclick="location.reload()">再玩一次</button>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
